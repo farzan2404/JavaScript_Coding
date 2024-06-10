@@ -52,7 +52,7 @@ const user = {
 
 
 function Object(object){
-    console.log(`${object.name} has given ${object.price}`);
+    // console.log(`${object.name} has given ${object.price}`);
 }
 
 Object({ name: 'Farzan', price: '1000' })
@@ -65,4 +65,4 @@ function returnSecondValue(getArray){
 }
 
 // console.log(returnSecondValue(myNewArray));
-console.log(returnSecondValue([200, 400, 500, 1000]));
+// console.log(returnSecondValue([200, 400, 500, 1000]));
